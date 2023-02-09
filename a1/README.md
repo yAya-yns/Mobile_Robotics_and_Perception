@@ -47,19 +47,13 @@ Observation:
 
 For objective 3: 
 - A-Star algorithm are applied to both maps with the same heuristics as the object 2
-- For PRM:
-  - number of Sample = 5500
+- For PRM => 116.9s for 25 x 25 map
+  - number of Sample (nS) = 5500
   - k = 11
-- For grid map
+- For grid map => 17.5s for 40 x 40 map
   - Density: 1 sample per grid
   - k = 4
 
 Observation: 
-- As shown in the first figure, the probablistic generated map was implemented first
-
-
-
-
-
-k = 11; % number of nearest neighbour
-nS = 5500;
+- The PRM's computational cost increases expotentially with respect to the incresae to k and nS. As shown in the first figure, despite a shorter path by being able to cut corners, the computation time exceed the requirement (40s). Based on observation, the more points generated, the more likely they are clustered together, which means k needs to be increases to avoid disconnection. Moreover, many sampled milestones are wasted for being too close to wall or too each other. 
+- Taking the prior knowledge of the map: all turns can be decomposed to a number of 90 degrees turns and at each point, there can be at most 4 directions to go. Thus, I decided to sample 1 point per unit square at the center and choose k = 4. The high efficiency of this methods strongly depends on the prior knowledge and the regularity of the map. If the maps are irregular, PRM is more likely to out perform in terms of finding a solution.
