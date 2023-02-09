@@ -180,7 +180,7 @@ str = sprintf('Q2 - %d X %d Maze Shortest Path', row, col);
 title(str);
 drawnow;
 
-print -dpng assingment1_q2.png
+print -dpng assignment1_q2.png
 
 
 % ================================================================
