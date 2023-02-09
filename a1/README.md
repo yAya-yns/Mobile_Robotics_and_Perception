@@ -1,5 +1,5 @@
 Main file: `ROB521_assignment1.m`
-Code available: https://github.com/yAya-yns/Mobile_Robotics_and_Perception/
+Code available: https://github.com/yAya-yns/Mobile_Robotics_and_Perception/tree/main/a1
 
 Credit: S L Waslander
 
