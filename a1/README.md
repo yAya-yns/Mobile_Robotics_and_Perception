@@ -37,5 +37,27 @@ For objective 2:
 - I also set the weight of the heuristics. I found actual cost:heuristics = 1:1 is good enough. 
 
 Observation: 
-- As shown, the probablistic generated map allow us to cross the map in the most efficient manner. However, the computational cost are quite high. The detailed will be comparied 
+- As shown, the probablistic generated map allow us to cross the map in the most efficient manner. However, the computational cost are quite high comparing with some other methods. A better comparison would be shown in the objective 3 task, where the map are scaled up. 
 
+
+## Objective 3: ##
+Random points generator is applied for objective 1 taks, shown below:
+![Alt text](/a1/assignment1_q3_aStar25x252.png "A-Star Algorithm under PRM")
+
+![Alt text](/a1/assignment1_q3.png "A-Star Algorithm under grid map")
+
+For objective 3: 
+- A-Star algorithm are applied
+- The heuristics is the Euclidean distance to the goal. 
+- I also set the weight of the heuristics. I found actual cost:heuristics = 1:1 is good enough. 
+
+Observation: 
+- As shown, the probablistic generated map allow us to cross the map in the most efficient manner. However, the computational cost are quite high comparing with some other methods. A better comparison would be shown in the objective 3 task, where the map are scaled up. 
+
+
+
+
+
+
+k = 11; % number of nearest neighbour
+nS = 5500;
