@@ -15,10 +15,9 @@ There are two objectives to complete:
 We implement an algorithm to estimate the pose of the robot throughout motion using the wheel odometry data (t_odom, v_odom, omega_odom) and assuming a differential-drive robot model. The estimations are saved as variables: (x_odom y_odom theta_odom) so that the comparison plots can be generated below: 
 ![Alt text](/a3/q1.png "TODO")
 
-https://github.com/yAya-yns/Mobile_Robotics_and_Perception/tree/main/a3/q1_video.mp4
+[![Demo CountPages alpha](https://share.gifyoutube.com/KzB6Gb.gif)](https://www.youtube.com/watch?v=ek1j272iAmc)
+
 
 ## Objective 2: ##
 We deliberately add some noise to the linear and angular velocities to simulate what real wheel odometry is like. The same algorithm from Objective#1 is used here. However, we loops 100 times with different random noise. From picture below, we discover that the path deviate much more as iteration increase.
 ![Alt text](/a3/q2.png "TODO")
-
-https://github.com/yAya-yns/Mobile_Robotics_and_Perception/tree/main/a3/q2_video.mp4
