@@ -9,3 +9,6 @@
   - Objective 1: Implement noise-free wheel odometry algorithm
   - Objective 2: add noise to data and re-run wheel odometry algorithm
   - Objective 3: build a map from ground truth and noisy wheel odometry
+- ### a3: Mapping with occupancy grids & Localization with Particle Filter
+  - Objective 1: Implement occupancy mapping algorithm
+  - Objective 2: Implement particle filter to localize from known map
