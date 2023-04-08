@@ -1,6 +1,6 @@
 Main file: `main.m`
 
-Code available: https://github.com/yAya-yns/Mobile_Robotics_and_Perception/tree/main/a3
+Code & Demo available at: https://github.com/yAya-yns/Mobile_Robotics_and_Perception/tree/main/a3
 
 Credit: S L Waslander
 
